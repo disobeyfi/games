@@ -27,7 +27,7 @@ A single challenge submission can include multiple flags like obtaining a common
 
 ### Metadata
 
-Please include a text/Markdown file (or HTML/PDF if needed, please avoid proprietary formats) containing the following metadata about the challenge. See [[challenge template/README.md]] and [[public/README.md]].
+Please include a text/Markdown file (or HTML/PDF if needed, please avoid proprietary formats) containing the following metadata about the challenge. See [the challenge template](challenge_template/README.md) and [the challenge public information](challenge_template/public/README.md).
 
 * **Preferred challenge name.** We will try to respect this, but will reserve the right to alter it in case of duplicate names or e.g. inappropriate language. This may include your company's name or similar if wanted.
 * **Challenge/task description.** Usually these look like "The intelligence team captured some suspicious packets, can you find out what the attacker was able to steal?" or "Find the flag from our customer database at http://challenge.example.com" (we will fill in the final URL).
@@ -41,7 +41,7 @@ Please include a text/Markdown file (or HTML/PDF if needed, please avoid proprie
 ### The challenge itself
 
 * For file based challenges, all the necessary files. Use descriptive filenames when possible. "challenge.jpg" is a bad example. If you have very large files (in the ballpark of 1GB and up), please contact the CTF team beforehand
-* For web applications / servers, see [[hosting.md]]
+* For web applications / servers, see [the hosting instructions](hosting.md)
 * At least try to both minimise and compress large files. Plz.
 
 ## Things to consider
