@@ -7,6 +7,7 @@ For hosting-as-a-service, the following formats are supported:
 * Docker image / Dockerfile
   * with all the necessary instructions for building and installation
   * docker-compose.yml helps a ton
+  * If you use docker compose, remember "restart: unless-stopped"
 * Ansible playbook / shell script with reasonable documentation which installs the challenge on a server where we have root access to.
   * The supported platforms are current releases of Ubuntu, Centos Stream, Rocky Linux, and Debian.
 * Virtual machine image
