@@ -8,6 +8,8 @@ For hosting-as-a-service, the following formats are supported:
   * with all the necessary instructions for building and installation
   * docker-compose.yml helps a ton
   * If you use docker compose, remember "restart: unless-stopped"
+  * Use volumes instead of local directories (because UIDs and permissions)
+  * Check that you're not referring to localhost in the application, because it might work on your machine but not where it's run in production :-)
 * Ansible playbook / shell script with reasonable documentation which installs the challenge on a server where we have root access to.
   * The supported platforms are current releases of Ubuntu, Centos Stream, Rocky Linux, and Debian.
 * Virtual machine image
